@@ -26,8 +26,11 @@ Ingat saat aku bilag bahasa ini pakai spasi? ya aku serius. di bahasa lain mungk
 Python malahan pakai
 
 > if nilai >= 60:
+
 >   print("KAMU LULUS!")
-> else:
->   print("KAMU BODOH DASAR")
+
+ > else:
+
+> print("KAMU BODOH DASAR")
 
 Memang ini bahasa punya caranya sendiri
