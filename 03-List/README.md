@@ -35,6 +35,23 @@ hasilnya gimana?
 ['meja', 'kursi', 'ayam']
 ```
 
-ya dia bakal nyebutin isi list kalian
+Ya dia bakal nyebutin isi list kalian
 
-### TO BE CONTINUE (Ngantuk lanjut besok)
+Nah jika kamu mau nyebut satu bendaa aja juga bisa dengan cara nyebut nomor urutnya
+
+Contohnya
+
+```python
+barang = ['meja', 'kursi', 'ayam']
+print(barang[0].title())
+```
+
+Nah nanti yang bakal muncul adalah
+
+```python
+Meja
+```
+
+# KOK BISA?
+
+Jadi sebenarnya urutan yang digunakan itu bukaan 123, tapi 0123. Jadi variabel meja itu pakai angka 0 karena dia pertama
