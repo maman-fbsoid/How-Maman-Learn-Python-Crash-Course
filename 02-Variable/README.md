@@ -8,7 +8,7 @@ Oke oke aku serius
 
 Baiklah kita akan langsung praktek
 
-Semuanya, notepad, code editor atau apapun yang kalian punya
+Semuanya Siapkan, notepad, code editor atau apapun yang kalian punya
 
 Ikuti langkah ini
 
