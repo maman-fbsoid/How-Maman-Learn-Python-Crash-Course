@@ -183,7 +183,7 @@ Nahhhhh
 
 ## Catatan
 
-Dulu aku ngira variabel cuman message. padahak ya sebenernya bebas mau di namain apa
+Dulu aku ngira variabel cuman message. padahal ya sebenernya bebas mau di namain apa
 
 > Aslinya karna dulu aku belajar Python cuman karena pengen kelihatan keren aja sih
 
