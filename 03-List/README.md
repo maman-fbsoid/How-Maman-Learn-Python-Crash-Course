@@ -55,3 +55,102 @@ Meja
 # KOK BISA?
 
 Jadi sebenarnya urutan yang digunakan itu bukaan 123, tapi 0123. Jadi variabel meja itu pakai angka 0 karena dia pertama
+
+Nah karna udah faham, sekarang kita bakal gabungin sama string
+
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+message = f"Temanku terbaikku adalah {teman[0].title()}."
+print(message)
+```
+
+Nah itu dia!
+
+Kenapa kok di jadiin message bang? jawabannya EFISIENSI DALAM MENULIS KODE
+
+Ya karna kalo di taruh di print semua malah jadi kepanjangan dan kelihatan berantakan
+
+## Menambah
+
+Oke anggap kita tadi sudah punya list teman. Tapi kita ingin menambahkan teman tapi tidak mau menulis dalam kolom list
+
+Apakah bisa? tentu bisa malah cukup banyak dipakai
+
+Command yang akan kita pakai adalah *.append()*
+
+Jadi tugasnya adalah nambahin string baru dalam list kita
+
+Contoh
+
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+teman.append('bambang')
+print(teman)
+```
+
+Nah, maka bambang akan masuk dalam list teman
+
+Welcome Bambang
+
+## Menghapus
+
+Nah tadi kan udah tuh nambah teman, sekarang kita akan ngehapus teman
+
+Gimana nyakk caranya?
+
+Kita akan pakai command *del*
+
+Nah dari namanya aja udah jelas. del untuk delete
+
+Contoh
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+del teman[1]
+print(teman)
+```
+
+BOOM
+
+Kamu baru saja menghapus epan dari pertemanan
+
+## Mengubah
+
+Kan udah nih soal menambahkan dan menghapus, sekarang saatnya untuk kita mengubah
+
+Hah mengubah? iya kita akan mengubah topek menjadi bambang
+
+Caranya kita akan pakai command *teman[] = 'bambang'*
+
+Contoh
+
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+teman[2] = 'bambang'
+print(teman)
+```
+
+Nah kan sekarang Topek telah diganti dengan bambang
+
+Welcome back bambang
+
+## Insert
+
+Nah sekarang saatnya kita belajar menyisipkan
+
+Insert, jadi ya kalian bisa menyisipkan string dalam list di posisi tertentu
+
+Kita akan menambahkan bambang di nomor 2 tanpa mengganti topek
+
+Caranya gimana? kit akan pakai command *.insert()*
+
+Fungsinya? ya tadi itu menyisipkan string
+
+Contohnya
+
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+teman.insert(2, 'bambang')
+print(teman)
+```
+
+Nah sekarang bambang sudah masuk tanpa mengeluarkan anggota manapun
