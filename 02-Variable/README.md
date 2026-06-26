@@ -35,7 +35,7 @@ message adalah variabel
 
 print() adalah fungsi untuk menampilkan output ke layar
 
-Selain itu variabel juga kalian sebenarnya bebas sih mau di namain apa. intinya kalian ga harus selalu message. bisa age, umur, negara, kotak dan nama nama lain
+Selain itu variabel juga bebas sih mau di namain apa. intinya kalian ga harus selalu message. bisa age, umur, negara, kotak dan nama nama lain
 
 Jadi intinya jangan mikir variabel tuh ya cuman satu
 
