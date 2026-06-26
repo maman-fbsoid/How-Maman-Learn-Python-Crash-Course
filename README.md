@@ -9,7 +9,7 @@ Pertama tama
 
 ## APA ITU PYTHON???
 
-Jadi Python adalah bahasa pemrograman yang cukup aneh dan menyimpang dari bahasa lain. di saat bahasa lain menggunakan kurung kurawal, python memilih memakai spasi. Memang aneh bahasa satu ini
+Jadi Python adalah bahasa pemrograman yang cukup aneh dan menyimpang dari bahasa lain. di saat bahasa lain menggunakan kurung kurawal, python memilih memakai spasi. Lebih tepatnya identasi dengan berupa 4 spasi untuk menentukan blok kode. Memang aneh bahasa satu ini
 Oke kita serius. Python merupakan bahasa pemrograman komputer yung digunakan di berbagai bidang misalnya saja dari otomatisasi, pengembangan web, analisis data, kecerdasan buatan bahkan mungkin juga pada ular di rumahmu. Kenapa? karena Python simpel dan ya bahasanya mirip bahasa manusia.
 Walau begitu jangan anggap Bahasa ini simpel. Karena sekali saja eror, erornya lebih horor daripada kuntilanak di depan rumahku.
 
