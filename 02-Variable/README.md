@@ -159,10 +159,10 @@ Faham kan semua fungsinya?
 
 Kalau enggak
 
-+ itu tambah
-- itu kurang
-* kali
-/ itu bagi
+- + itu tambah
+- - itu kurang
+- * kali
+- / itu bagi
 
 Kalian bisa bikin jika ada angka yang ingin di jumlahkan dulu pake aja ()
 
