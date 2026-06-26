@@ -154,3 +154,73 @@ print(teman)
 ```
 
 Nah sekarang bambang sudah masuk tanpa mengeluarkan anggota manapun
+
+Welcome bambang
+
+## Menghapus dan Mengambil
+
+Baiklah semuanya sekarang akan ku ajarkan kalian cara mengambil salah satu string dari list
+
+Jadi kita akan memakai *.pop()*
+
+Fungsinya? menghapus elemen dan mengembalikan nilai nya
+
+Jadi langsung saja ke contoh agar kalian faham
+
+Contoh
+
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+teman_terbaik = teman.pop()
+print(f"Teman terbaikku adalah {teman_terbaik.title()}.")
+```
+
+Bagaimana? sudah faham?
+
+Tentu... kalian aslinya tidak faham kan...
+
+Oke oke ku perjelas kalau kalian tidak faham
+
+Variabel teman menunjukan daftar list teman kita
+
+Lalu muncul variabel baru yaitu teman_terbaik untuk menunjukan string mana di list yang ingin di ambil nilainya
+
+Lalu kita buat string untuk menampilkan output
+
+BOOM
+
+Sekarang kalian memberitahu bahwa teman terbaikmu adalah Maman
+
+Nah jika ingin spesifik kita bisa ppakai angka juga untuk nunjukin "Eh ini loh yang di ambil"
+
+Contoh
+
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+teman_terbaik = teman.pop(1)
+print(f"Teman terbaikku adalah {teman_terbaik.title()}."
+```
+
+Nah sekarang teman terbaikmu adalah Epan
+
+## Menghapus elemen berdasarkan isi data
+
+Nah tadi kan udah ada pop()
+
+Sekarang kita pakai kembarannya pop() yaitu *remove()*
+
+Jadi fungsinya menghapus berdasarkan nama. Jadi kita gak pake angka tapi nama
+
+Contoh
+```python
+teman = ['budi', 'epan', 'topek', 'maman']
+teman_terbaik = 'budi'
+teman.remove(teman_terbaik)
+print(f"\nJadi teman terbaikku adalah {teman_terbaik.title()}.")
+```
+
+Nah jelas kan? cuman beda tipis sebenernya
+
+## Menyortir
+
+### TO BE CONTINUE (Ngantuk Ngab, mau tidor)
