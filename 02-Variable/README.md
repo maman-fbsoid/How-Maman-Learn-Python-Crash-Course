@@ -159,10 +159,7 @@ Faham kan semua fungsinya?
 
 Kalau enggak
 
-- *+* itu tambah
-- - itu kurang
-- * kali
-- / itu bagi
+Itu Tambah Kali Kurang
 
 Kalian bisa bikin jika ada angka yang ingin di jumlahkan dulu pake aja ()
 
