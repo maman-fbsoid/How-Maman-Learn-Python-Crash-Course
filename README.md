@@ -17,17 +17,21 @@ Walau begitu jangan anggap Bahasa ini simpel. Karena sekali saja eror, erornya l
 Seperti yang aku bilang di awal tadi, bahasa ini aneh
 Ingat saat aku bilag bahasa ini pakai spasi? ya aku serius. di bahasa lain mungkin
 
+```c
 if (nilai >= 60) {
     printf("Lulus");
 } else {
     printf("Remedial");
 }
+```
 
-tapi di Python
+Tapi di Python...
 
+```python
 if nilai >= 60:
     print("Selamat kamu lulus")
 else:
     print("DASAR! BALIK KE TK SANA")
+```
 
 Memang ini bahasa punya caranya sendiri
