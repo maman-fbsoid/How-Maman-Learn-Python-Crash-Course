@@ -153,9 +153,16 @@ Oke kita masuk akhir materi yaitu Python itu kalkulator
 
 Nah kita belajar matematika TK ya
 
-Simpel aja ada empat simbol yaitu +. -, *, dan /
+Simpel aja ada empat simbol yaitu +, -, *, dan /
 
 Faham kan semua fungsinya?
+
+Kalau enggak
+
++ itu tambah
+- itu kurang
+* kali
+/ itu bagi
 
 Kalian bisa bikin jika ada angka yang ingin di jumlahkan dulu pake aja ()
 
