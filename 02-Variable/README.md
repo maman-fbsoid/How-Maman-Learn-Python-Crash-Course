@@ -159,7 +159,7 @@ Faham kan semua fungsinya?
 
 Kalau enggak
 
-Itu Tambah Kali Kurang
+Itu tambah kurang kali bagi
 
 Kalian bisa bikin jika ada angka yang ingin di jumlahkan dulu pake aja ()
 
