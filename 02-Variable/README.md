@@ -189,4 +189,4 @@ Dulu aku ngira variabel cuman message. padahal ya sebenernya bebas mau di namain
 
 ## Penutup
 
-Baiklah, untuk bab Variabel sebini dulu karena emang mudah ya. jadi see ya semua. maaf kalau ada typo atau salah
+Baiklah, untuk bab Variabel segini dulu karena emang mudah ya. jadi see ya semua. maaf kalau ada typo atau salah
