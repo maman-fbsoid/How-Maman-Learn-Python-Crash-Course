@@ -35,3 +35,11 @@ else:
 ```
 
 Memang ini bahasa punya caranya sendiri
+
+## Donation
+
+Oke, sebelumnya aku ingin bicara. Kalau mau donate bebas tapi jangan banyak banyak soalnya mending itu duit beliin baso bisa kok
+
+https://saweria.co/MamanFungkyreall
+
+Link nya gw kasih
