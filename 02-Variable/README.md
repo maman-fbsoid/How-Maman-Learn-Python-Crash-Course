@@ -159,7 +159,7 @@ Faham kan semua fungsinya?
 
 Kalau enggak
 
-- + itu tambah
+- *+* itu tambah
 - - itu kurang
 - * kali
 - / itu bagi
