@@ -1,5 +1,5 @@
 # How-Maman-Learn-Python
-> Repo ini di tulis oleh anak SMP yang bikin tantangan belajar python selama liburan dan jika gagal harus nembak crush. dan bahasa ini di tulis karena ia gabut main Albion Online
+> Repo ini di tulis oleh anak SMP yang bikin tantangan belajar python selama liburan. dan bahasa ini di tulis karena ia gabut main Albion Online
 
 ## Selamat Datang!
 
