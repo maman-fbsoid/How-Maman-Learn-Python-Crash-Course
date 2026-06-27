@@ -139,7 +139,7 @@ print(angka)
 Outputnya
 
 ```python
-['1', '2', '3', '4', '5']
+[1, 2, 3, 4, 5]
 ```
 
 Nah kalian juga bisa bikin kelipatan. Caranya hampir sama
@@ -152,7 +152,7 @@ print(angka)
 Outputnya
 
 ```python
-['2', '4', ''6, '8', '10']
+[2, 4, 6, 8, 10]
 ```
 
 Bisa kan?
@@ -171,7 +171,7 @@ print(kotak)
 Outputnya
 
 ```python
-['1', '4', '9', '16', '25', '36', '49', '64', '81', ''100]
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 Kok gitu bang?
@@ -440,7 +440,7 @@ antrean_barang = [
 ("Yono", "Drum")
 ]
 
-for nama, barang in antrean_barang:
+for nama, nama_barang in antrean_barang:
   print(f"Tuh masukin barang si {nama}, barangnya {barang}")
 ```
 
