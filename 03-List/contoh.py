@@ -25,10 +25,11 @@ print(teman)
 ## .pop()
 teman = ['budi', 'epan', 'topek', 'maman']
 teman_terbaik = teman.pop(2) ## <- ini metode pop
-print(f"teman terbaikku ialah {teman_terbaik}.")
+print(f"\nTeman terbaikku ialah {teman_terbaik.title()}.")
 
 ## .remove()
 
 teman = ['budi', 'epan', 'topek', 'maman']
-teman.remove('epan')
-print(f"\nTemanku yang paling jahat adalah {teman.}")
+teman_jahat = 'epan'
+teman.remove(teman_jahat)
+print(f"\nTemanku yang paling jahat adalah {teman_jahat.title().}")
