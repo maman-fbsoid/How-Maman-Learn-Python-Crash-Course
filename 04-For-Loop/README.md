@@ -11,4 +11,7 @@ Disini kalian akan tahu soal Python pakai spasi bukan tanda kurung
 Akan kuberi contoh sederhana dari for loop
 
 ```python
-makanan = ['', 'nanas', 'apel', 'pisang']
+makanan = ['manggis', 'nanas', 'apel', 'pisang']
+for buah in makanan:
+  print(buah)
+```
