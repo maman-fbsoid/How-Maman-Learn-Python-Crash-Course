@@ -31,5 +31,20 @@ print(f"\nTeman terbaikku ialah {teman_terbaik.title()}.")
 
 teman = ['budi', 'epan', 'topek', 'maman']
 teman_jahat = 'epan'
-teman.remove(teman_jahat)
+teman.remove(teman_jahat) ## <- metode remove
 print(f"\nTemanku yang paling jahat adalah {teman_jahat.title().}")
+
+## .sort()
+makanan = ['mbg', 'indomie', 'ayam goreng', 'baso']
+makanan.sort() ## <- metode sort
+print(makanan)
+
+## reverse=True
+makanan = ['mbg', 'indomie', 'ayam goreng', 'baso']
+makanan.sort(reverse=True) ## <- metode sort yang di reverse alias di balik
+print(makanan)
+
+## .reverse()
+makanan = ['mbg', 'indomie', 'ayam goreng', 'baso']
+makanan.reverse()
+print(makanan)
