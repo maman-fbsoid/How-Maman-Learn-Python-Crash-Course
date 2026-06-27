@@ -9,5 +9,10 @@ print(teman)
 
 ## del
 teman = ['budi', 'epan', 'topek', 'maman']
-del 
+del teman[1] ## <- ini metode menghapus
+print(teman)
+
+## .insert
+teman = ['budi', 'epan', 'topek', 'maman']
+teman.insert[2] ## <- ini metode insert
 print(teman)
