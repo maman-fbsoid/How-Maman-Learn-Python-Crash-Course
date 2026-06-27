@@ -283,6 +283,18 @@ Gimana tuh kerjanya?
 
 Jadi Python lihat "Oh mulainya dari nomor 2, oke saatnya laksanakan sampe akhir nomor di list ini"
 
+Nah coba kita gabungkan dengan string dan loop
+
+```python
+tanaman = ['wortel', 'sawi', 'selada', 'ambawi', 'jagung']
+
+print("Tanaman favoritku adalah:")
+for sayur in tanaman[:3]:
+  print(sayur.title())
+```
+
+Nah jadi kan
+
 ## Copying a List
 
 Sekarang kita akan belajar menyaring sebuah list
@@ -320,7 +332,8 @@ Saatnya kita hias dikit biar bervariasi *dikit*
 mainanku = ['komputer', 'airsoft', 'kaido_house']
 mainan_budi = mainanku[:]
 
-mainan.append('')
+mainanku.append('python')
+mainan_budi.append('konsol')
 
 print("Mainan favoritku adalah:")
 print(mainanku)
@@ -329,4 +342,122 @@ print("\nMainan favorit Budi adalah:")
 print(mainan_budi)
 ```
 
-# NANTI LAGI NGAB
+Outputnya
+
+```python
+Mainan favoritku adalah:
+['komputer', 'airsoft', 'kaido_house', 'python']
+
+Mainan favorit Budi adalah:
+['komputer', 'airsoft', 'kaido_house', 'konsol']
+```
+
+## Tuples
+
+SELAMAT DATANG DI MATERI TERAKHIR YAITU SOAL *Tuples*
+
+Tuples ya bukan Toples
+
+Jadi apa sih Tuples tuh?
+
+Tuples tuh beda ya sama list biasa tapi mirip dikit
+
+Bedanya tuh kalo list pake [], Tuples pake ()
+
+Contoh
+
+```python
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+```
+
+Outputnya
+
+```python
+200
+50
+```
+
+Nah mirip aja sama List bedanya aja ini lebih kaku
+
+Coba kita gabung sama for loop
+
+```python
+dimensions = (200, 50)
+for dimension in dimensions:
+  print(dimension)
+```
+
+Gimana? (Jujur aku sendiri agak bingung pas awal awal)
+
+Nah sekarang akan ku tunjukan sihir dari toples kaca ini
+
+Kita akan memakai teknik `Tuples Unpacking`
+
+Behh namanya aja udah kayak... tukang paket
+
+Nah jadi fungsiny apa sih? lu ga perlu ngetik satu persatu buat munculin elemennya
+
+Oke akan kutunjukan perbedaannya
+
+Manual
+
+```python
+# Ada data motor (Nama Barang, Harga)
+barang = ("Komputer", 18000)
+
+# Ngambil manual pake indeks
+nama = barang[0]
+harga = barang[1]
+
+print(nama) 
+print(harga)
+```
+
+Kalo di lihat kan kepanjangan ya, nah kita coba pake teknik
+
+Teknik
+
+```python
+barang = ("Komputer", 18000)
+
+# Proses UNPACKING terjadi di sini:
+nama, harga = barang
+
+print(nama)  
+print(harga) 
+```
+
+Gimana? jauh lebh cepet bukan
+
+Sekarang kita gabungkan sama for loop
+
+```python
+antrean_barang = [
+("Fahri", "Basikal"),
+("Budi", "Blender"),
+("Yono", "Drum")
+]
+
+for nama, barang in antrean_barang:
+  print(f"Tuh masukin barang si {nama}, barangnya {barang}")
+```
+
+Gimana? udah dicoba?
+
+Cara kerjanya gimana sih
+
+Jadi si toples, eh toples. Tuples bakal bikin list pake () yang isinya lu bebas tuh mau lu isi angka atau string
+
+Nah terus kalo kita lihat kan itu masih ada [], gunanya apa? kita analogikan kurung siku tuh plastik kresek. Terus kurung biasa (), itu bungkusan pecel di dalam kresek. Lalu "Fahri" dan "Basikal" itu nasi sama lauknya. Faham?
+
+# Penutup dan minta maaf
+
+Baiklah saya Maman dan saya mengakhiri bab ini dengan ucapan terimakasih. Dan juga maaf
+
+Saya minta maaf bila banyak kata kata yang diulang ulang dan juga materi yang kurang lengkap atau diloncat loncat
+
+Jadi sekian dari saya, terimakasih
+
+JANGAN LUPA CUCI MUKA!
