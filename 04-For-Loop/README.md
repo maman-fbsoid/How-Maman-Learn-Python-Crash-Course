@@ -79,4 +79,20 @@ buah Pisang sangat mwanis
 
 How? udah ngeri? kalo ga ngerti gapapa. Coba baca ulang dan praktek ulang (atau maybe mungkin kode ku yang typo :V)
 
-# LANJUT NANTI NGAB DI SURUH MAKAN SAMA EMAK
+Nah selanjutnya kita bakal tambahin string lagi
+
+Langsung saja
+
+
+```python
+makanan = ['manggis', 'nanas', 'apel', 'pisang']
+for buah in makanan:
+  print(f"Buah {buah.title()} sangat mwanis!")
+  print(f"Aku harap aku bisa makan {buah.title()} terus")
+
+print("Kapan kapan lagi deh makan lagi")
+```
+
+Nah sekarang kalian udah ngebikin for loop yang ada variasinya *dikit*
+
+# LANJUT TAR MALAM NGAB ADA MASALAH SAMA MONITOR
