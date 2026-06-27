@@ -6,3 +6,8 @@ print(teman)
 teman = ['budi', 'epan', 'topek', 'maman']
 teman.append('bambang') ## <- ini metode manambahkan
 print(teman)
+
+## del
+teman = ['budi', 'epan', 'topek', 'maman']
+del 
+print(teman)
