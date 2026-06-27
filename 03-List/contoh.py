@@ -22,4 +22,13 @@ teman = ['budi', 'epan', 'topek', 'maman']
 teman.insert(2, 'bambang') ## <- ini metode insert
 print(teman)
 
+## .pop()
+teman = ['budi', 'epan', 'topek', 'maman']
+teman_terbaik = teman.pop(2) ## <- ini metode pop
+print(f"teman terbaikku ialah {teman_terbaik}.")
+
 ## .remove()
+
+teman = ['budi', 'epan', 'topek', 'maman']
+teman.remove('epan')
+print(f"\nTemanku yang paling jahat adalah {teman.}")
