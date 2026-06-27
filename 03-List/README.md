@@ -223,4 +223,68 @@ Nah jelas kan? cuman beda tipis sebenernya
 
 ## Menyortir
 
-### TO BE CONTINUE (Ngantuk Ngab, mau tidor)
+Nah kita sekarang masuk ke materi selanjutnya dan sekaligus terakhir di bab 3 ini
+
+Oke langsung aja ya
+
+Apa maksudnya menyrotir?
+
+Soo ini tuh command simpel untuk bikin elemen di dalam list bisa di urutkan sesuai hurufnya
+
+Kita akan pakai command *.sort()* yang fungsinya untuk ya itu tadi, mengurutkan
+
+Contoh
+
+```python
+makanan = ['mie ayam', 'nasgor', 'bakmi', 'gacoan']
+makanan.sort()
+print(makanan)
+```
+
+Nah udah faham kan? hasilnya gimana? bakal di urutkan sesuai hurufnya kan
+
+Lanjut, kita punya reverse
+
+Kalau sort biasa hanya akan mengurutkan dari depan, reverse bakal bikin urutan kebalik dari belakang
+
+Command yang bakal kita pakai adalah *reverse=True*
+
+Contoh
+
+```python
+makanan = ['mie ayam', 'nasgor', 'bakmi', 'gacoan']
+makanan.sort(reverse=True)
+print(makanan)
+```
+
+Nah dia bakal ngurutin bukan dari A ke Z tapi Z ke A
+
+Nah kalian juga bisa balik list nya tapi tidak di urutkan dengan command *.reverse()*
+
+Contoh
+
+```python
+makanan = ['mie ayam', 'nasgor', 'bakmi', 'gacoan']
+makanan.reverse()
+print(makanan)
+```
+
+Nah lihat outputnya. Cuman di balik tanpa di urutkan
+
+### Penutup
+
+Di bagian penutup ini, aku ingin bertanya
+
+"LU PADA FAHAM GA?"
+
+Kalo iya
+
+Syukur
+
+Kalo enggak
+
+Yowes
+
+Nah jadi makasih yang udah mau baca repo aneh yang di tulis bocah ini
+
+Kalau begitu ADIOS!
