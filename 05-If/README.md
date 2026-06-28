@@ -117,4 +117,167 @@ Sapi adalah makanan halal
 
 Gituuu
 
-# TO BE CONTINUED
+## If Else untuk angka
+
+Sekarang kita akan belajar operator baru untuk angka yaitu `>=` yaitu lebih dari atau sama dengan
+
+Simpelnya aja nih ya dia bisa tahu elemen yang kamu kasih tuh angkanya lebih atau sama
+
+Langsung aja kita ke contohnya
+
+```python
+umur = 19
+
+if umur >= 18:
+  print("Kamu bisa ikut milih presiden")
+else:
+  print("Kau masih bocah untuk memilih siapa pemimpin selanjutnya")
+```
+
+Dari sini harusnya udah jelas sih dimana
+
+Variabel yang kita punya kan `19` sedangkan di if statement nya tuh `18` dan variabel kita juga lebih dari `18` yang dimana kita lolos
+
+Ada operator lain yang tugasnya sama
+
+`>` lebih dari (gabisa buat angka yang sama)
+`<` kurang dari (gabisa buat angka yang sama)
+`<=` kurang dari atau sama dengan (bisa dengan angka yang sama)
+
+## Elif
+
+Beberapa dari kalian mungkin ada yang sudah pernah mendengar istilah ini di bahasa lain atau kalian pernah mendengar kata ini dari seseorang mungkin
+
+Nah `elif` ini fungsinya apa sih???
+
+Fungsinya adalah bikin sebuah percangan dalam If-Else. Maksudny adalah `else if` atau ya kondisi yang lebih dari dua. Jadi kalau kalian pake `if` dan `else` kan cuman buat dua kondisi. Nah `elif` ini buat lebih dari satu
+
+Contoh
+
+```python
+umur = 6
+
+if umur < 4:
+  print("Kamu boleh masuk ke taman, bayar Rp.2000")
+elif umur < 18:
+  print("Kamu boleh masuk ke taman, bayar Rp.5000")
+else:
+  print("Kamu boleh masuk ke taman, bayar Rp.10000")
+```
+
+Nah bisa terlihat kita bisa pake sampe 3 kondisi
+
+Kalian juga bisa untuk lebih efisien pake `str()`
+
+Apa tuh bang Messi? Eh bang Maman maksudnya
+
+Jadi `str()` tuh fungsi untuk mengubah nilai menjadi teks dalam string
+
+Emang kenapa pake `str()`?
+
+Alasannya ya alih alih kalian nulis "Kamu boleh masuk ke taman, bayar Rp." kalian bisa langsung jadiin satu aja
+
+Contoh
+
+```python
+umur = 6
+
+if umur < 4:
+  harga = 2000
+elif umur < 18:
+  harga = 5000
+else:
+  harga = 10000
+
+print(f"Kamu boleh masuk, bayar Rp.{str(harga)}.")
+```
+
+Nah bisa di lihat kan kalau lebih baik gini karena lebih hemat waktu dan ruang juga
+
+Gimana kalau kita pake `elif` dan tanpa `else`? emang bisa?
+
+BISA.
+
+Contoh
+
+```python
+if umur < 4:
+  harga = 2000
+elif umur < 18:
+  harga = 5000
+elif umur >= 20:
+  harga = 10000
+
+print(f"Kamu boleh masuk, bayar Rp.{str(harga)}.")
+```
+
+Nah kok bisa ya `else` ga usah tapi kita pake `elif` dan anehnya bisa
+
+Jawaban simpelnya gini sih
+
+`elif` tidak harus selalu diakhiri dengan `else`. `else` bersifat opsional. Kalau semua kondisi `if` dan `elif` bernilai `False`, maka program hanya akan melewati blok tersebut dan melanjutkan ke kode berikutnya
+
+Faham? tentu dong harusnya faham :V
+
+Next
+
+Sekarang jika kita pengen bikin beberapa kondisi tapi kit apake `if` saja? 
+
+BISA
+
+Contoh
+
+```python
+kendaraan = ['motor', 'mobil']
+
+if 'motor' in kendaraan:
+  print("Motor adalah kendaraam")
+if 'naga' in kendaraan:
+  print("Naga bukan kendaraan, patrick")
+if 'mobil' in kendaraan:
+  print("Mobil adalah kendaraan")
+
+print("\nBaiklah sekian ilmu saya")
+```
+
+Nah bisa di lihat kan jadi gitu... anu... ya gitu
+
+Oke oke jadi KOK BISA?
+
+Jawabannya BISA karena
+
+If bakal ngelihat isi dalam list dan selama itu True dia bakal jalanin. Kalau False yo dia ga bakal ngeluarin outputnya
+
+Sekarang coba kita gabungkan sama for loop
+
+```python
+garasi = ['motor', 'naga', 'mobil']
+
+for motor in garasi:
+    if motor == 'naga':
+        print("Naga bukan kendaraan, patrick")
+    else:
+        print(f"{motor.title()}, adalah kendaraan")
+
+print("\nSekian ilmu dari saya")
+```
+
+Nah bisa di lihat kita bilang ke Python kalau "Eh kalau nanti ada naga itu bilang aja itu bukan kendaraan ya"
+
+Gitu
+
+# Penutup dan minta maaf
+
+Oke ternyata udah selesai ya materinya
+
+Gak nyangka kalian baca repo ini (atau gak sih idk but its okay :V)
+
+Nah saya minta maaf kalau ada kode di atas yang eror karena saya juga sering banyak salah
+
+Saya juga berterimakasih soalnya kalian udah mau baca repo ini (buat yang baca aja sih :V)
+
+Soo makasih ya yang udah star, upvote di reddit dan lain lain
+
+Semoga ilmu ini bermanfaat
+
+### ADIOS!
