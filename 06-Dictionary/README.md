@@ -118,4 +118,148 @@ Kita lihat kita nunjukin Directory kita yaitu `maman[]` di dalam `[]` kita namba
 
 Gituu
 
-# To Be Continued
+Nah kalian juga bisa pake teknik tersebut jika Dictionary kosong
+
+Contoh
+
+```python
+maman = {}
+
+maman['role'] = 'ksatria'
+maman['umur'] = 15
+
+print(maman)
+```
+
+Bisa di lihat bahwa Dictionary maman hanya menggunakan `{}` tanpa elemen di dalamnya yang artinya kalian bisa mengisinya sendiri
+
+## Modifikasi Value
+
+Nah sekarang kita akan belajar gimana cara ngubah suatu value di dalam Dictionary 
+
+Jadi kita bisa ubah value dari key yang ada di Dictionary
+
+Contoh
+
+```python
+maman = {'role': 'ksatria'}
+print(f"Role pertama maman adalah {maman['role']}")
+
+maman['role'] = 'raja'
+print(f"\nRole maman sekarang adalah {maman['role']}")
+```
+
+Outputnya
+
+```python
+Role pertama maman adalah ksatria
+
+Role maman sekarang adalah raja
+```
+
+Nah sekarang kita gabungin sama `if-elif-else`
+
+Gimana? Gini caranya
+
+```python
+maman = {
+'role': 'ksatria',
+'umur': '15',
+'level': '25'
+}
+
+if maman['role'] == 'penyihir':
+  print("Maman adalah seorang penyihir")
+elif maman['role'] == 'ksatria':
+  print("Maman adalah seorang ksatria")
+else:
+  print("Role tidak diketahui")
+```
+
+Output
+
+```python
+Maman adalah seorang ksatria
+```
+
+Kita udah belajar menambahkan value. sekarang kita akan menghapus key dan value
+
+Gimana caranya?
+
+Ingat command `del`? kita bakal pake itu
+
+Contoh caranya
+
+```python
+maman = {'kolor': 'ijo',
+'umur': 15
+}
+
+print(maman)
+del maman['umur']
+print(maman)
+```
+
+Outputnya
+
+```python
+{'kolor': 'ijo', 'umur': 15}
+{'kolor': 'ijo'}
+```
+
+Bisa di lihat bahwa
+
+`del` Digunakan untuk menghapus `maman['umur']`
+
+## Loop dengan Dictionary
+
+Sekarang kita akan melakukan for loop dengan Dictionary
+
+Gak beda jauh dengan for loop di `list`
+
+Maka langsung saja kita ke contoh
+
+```python
+user = {
+'XxiDragon': 'budi',
+'BocahBegal123': 'epan',
+'OrangKokUnik1': 'maman'
+}
+
+for key, value in user.items():
+  print(f"\nKey: {key}")
+  print(f"Value: {value}")
+```
+
+Outputnya
+
+```python
+Key: XxiDragon
+Value: budi
+
+Key: BocahBegal123
+Value: epan
+
+Key: OrangKokUnik1
+Value: maman
+```
+
+Nah bisa di lihat kan loop nya berhasil
+
+Jadi cara kerjanya gimana?
+
+Pertama kita sudah membuat dictionary `user` dan ya lalu kita melakukan for loop
+
+Jadi gimana sih maksud `for key, value in user.items()`?
+
+Jadi gini loh yak
+
+Bisa di lihat `for key, value in user.items()` maka simpelnya gini. Python ngambil key dan value pada dictionary `user`
+
+Lah `.items()` apaan
+
+Jadi `.items()` tuh tugasnya "Mengambil semua pasangan key dan value" yang ada di dalam dictionary
+
+Jadi dia ngambil semua key dan value di dalam `user`
+
+# TO BE CONTINUED (Aing capek)
